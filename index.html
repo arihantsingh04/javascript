@@ -55,21 +55,59 @@
      </script>
  -->
 
- <p id="demo"></p>
+ <p id="demo1"></p>
+ <p id="demo2"></p>
 
  <script>
-    var person={
-        fn:'john',
-        ln:'doe',
-        id:5566,
-        getinfo : function(){
-            return this.fn+" "+this.ln;
-        }
-    };
+    // var person={
+    //     fn:'john',
+    //     ln:'doe',
+    //     id:5566,
+    //     address:{
+    //         street:'vijay nagar',
+    //         flat : 505
+    //     },
+    //     getinfo : function(){
+    //         return this.fn+" "+this.ln;
+    //     }
+    // };
 
-    document.getElementById("demo").innerHTML = person.getinfo();
+    // document.getElementById("demo").innerHTML = person.getinfo();   
 
-    console.log(Date());
+    // console.log(Date());
+    // console.log(person);
+
+    // var person2= new Object();
+    // person2.name='arihant';
+    // person2.age=20;
+    // person2.isMarried=false;
+    // person2.address={};
+    // person2.address.street='lcolony';
+    // person2['address']['f no:']=505;
+    // console.log(person2)
+
+    // console.log(person2['name']);
+    // document.write(person2.name);
+    // document.write("<br>")
+    
+    //     var locales = {
+    //   europe: function() {
+    //     var myFriend = "Monique";
+    //     var france = function() {
+    //       var paris = function() {
+    //         console.log(myFriend);
+    //       };
+    //       paris();
+    //     };
+    //     france();
+    //   }
+    // };
+    // locales.europe();   
+    
+    function show(){
+        var a ='a is a local outer variable';
+        document.write(a+"<br>");
+    }
  </script>
 
 </body>
